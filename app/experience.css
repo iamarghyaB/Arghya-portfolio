@@ -335,10 +335,10 @@ html:has(.portfolio-experience) { scroll-padding-top: 0; }
 .skill-choice input:checked ~ .skill-panel { display: grid; }
 .skill-art { display: grid; justify-items: center; gap: 29px; padding: 12px 0; animation: badge-rise .5s cubic-bezier(.2, .7, .3, 1) both; }
 @keyframes badge-rise { from { opacity: .2; transform: translateY(24px) scale(.88) rotate(-7deg); } }
+.skill-photo { position: relative; width: min(100%, 400px); aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid #786579; border-radius: 13px; background: #242024; box-shadow: 0 18px 36px #0007; }
+.skill-photo img { object-fit: cover; }
 .skill-emblem { display: grid; place-items: center; width: clamp(130px, 19vw, 235px); aspect-ratio: 1; border-radius: 21%; color: #63355d; background: repeating-radial-gradient(ellipse at 20% 120%, #f0b8e4 0 14px, #d98bc8 15px 29px); transform: rotate(-12deg); box-shadow: 0 22px 45px #0007; }
 .skill-emblem svg { width: 61%; height: auto; }
-[data-skill=backend] .skill-emblem { color: #613416; background: repeating-conic-gradient(#eab755 0% 25%, #d88035 0% 50%) 0 0 / 52px 52px; }
-[data-skill=delivery] .skill-emblem { color: #173e72; background: repeating-radial-gradient(ellipse at 100% 20%, #9dd1ee 0 13px, #7ba8e5 14px 30px); }
 [data-skill=product] .skill-emblem { color: #314e3b; background: repeating-linear-gradient(40deg, #afd3a8 0 20px, #6ca889 21px 41px); }
 .skill-art > span { color: #c5bac4; font: .82rem var(--font-mono); }
 .skill-description h3 { color: #fff; font: 400 clamp(2.25rem, 4.35vw, 4.6rem)/.92 var(--font-display); letter-spacing: -.06em; }
