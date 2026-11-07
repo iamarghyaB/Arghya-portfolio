@@ -1,32 +1,19 @@
-# Portfolio React
+# Arghya Biswas — Human / System
 
-> A modern, responsive personal portfolio website designed to showcase my professional journey, skills, and projects.
+The portfolio and its owner dashboard run in one Next.js app. Use Node.js 22.13 or later.
 
-## 🎨 Project Theme
+```sh
+npm ci
+npm run dev
+```
 
-This project is a **Personal Portfolio Website** crafted to provide a professional online presence. It features a clean, modern design with smooth animations and a user-friendly layout. Key sections include:
+- Portfolio at [localhost:3000](http://localhost:3000/)
+- Owner dashboard at [localhost:3000/dashboard](http://localhost:3000/dashboard/)
 
--   **Hero Section:** distinct introduction with dynamic typing effects.
--   **About Me:** detailed professional summary.
--   **Skills & Stats:** visual representation of technical expertise.
--   **Portfolio:** showcase of projects with filtering capabilities.
--   **Resume & Services:** professional background and service offerings.
--   **Contact:** easy-to-use contact form for inquiries.
+For dashboard sign-in, set `PORTFOLIO_ADMIN_PASSWORD` to a strong password of at least 16 characters in your local `.env.local` file or server environment. The local setup for this workspace already has a generated password in `.env.local`. Keep that file private and restart the server after changing it.
 
-## 🛠️ Tech Stack
+Choose Client Work or Personal Project when publishing from the dashboard. Each entry appears in its homepage section, newest first. The most recently published entry across both categories also appears in Featured Work. Earlier dashboard entries keep their place in Client Work and can be reclassified from the editor.
 
-Built with the latest modern web technologies for performance and scalability:
+Local entries, skills, and screenshots are stored in `.data/portfolio.sqlite`. Set `PORTFOLIO_DB_PATH` to use a different local file.
 
--   **Frontend Library:** [React 19](https://react.dev/)
--   **Build Tool:** [Vite 7](https://vitejs.dev/)
--   **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
--   **UI Components:** [DaisyUI 5](https://daisyui.com/)
--   **Code Quality:** ESLint
-
-## 🚀 Live Demo
-
-**[View Live Application]: https://arghya-portfolio-dev.netlify.app/**
-
-
-
-
+On Vercel, use the Next.js framework preset and Node.js 22. Connect a dedicated Turso libSQL database and set `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, and `PORTFOLIO_ADMIN_PASSWORD` in the project's environment variables. Use a password of at least 16 characters. Redeploy after configuring the variables. The app creates its tables on first use. Use a separate database for previews if preview publishing is enabled.

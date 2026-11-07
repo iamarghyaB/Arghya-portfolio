@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <defs>
+    <linearGradient id="chrome" x1="41" y1="42" x2="245" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2c303a"/><stop offset=".17" stop-color="#e1e2e7"/><stop offset=".25" stop-color="#4c505b"/><stop offset=".42" stop-color="#08090b"/><stop offset=".56" stop-color="#4e515b"/><stop offset=".63" stop-color="#f0eced"/><stop offset=".71" stop-color="#6c5b65"/><stop offset=".89" stop-color="#111117"/><stop offset="1" stop-color="#ab5967"/>
+    </linearGradient>
+    <linearGradient id="facet" x1="140" y1="25" x2="147" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ece9ea"/><stop offset=".29" stop-color="#17191e"/><stop offset=".58" stop-color="#98949b"/><stop offset=".68" stop-color="#33353e"/><stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="126" stroke="#85808c" stroke-opacity=".35" stroke-dasharray="2 5"/>
+  <path d="M8 150h37m211 0h36M150 8v37m0 211v36" stroke="#85808c" stroke-opacity=".44"/>
+  <path d="m226 99 21 14 8 43-17 40-36 32-49 16-49-7-40-28-20-44 3-42 24-36 38-22 39-3 36 18 21 27 1 29-15 25-23 8-19-9-7-15 11-14 10 11 10-3 9-14-4-18-21-15-26-3-26 12-17 24-2 28 14 27 28 17 32 3 33-12 25-21 12-27-4-25Z" fill="url(#chrome)" stroke="#8a8791" stroke-width=".7"/>
+  <path d="m226 99 8 21-1 24-16 30-24 21-34 12-33-3-32-18-15-30 2-30 19-27 28-14 28 3 25 17 5 22-11 17-13 4-11-9 2-8 10 11 10-3 9-14-4-18-21-15-26-3-26 12-17 24-2 28 14 27 28 17 32 3 33-12 25-21 12-27-4-25Z" fill="url(#facet)" stroke="#c7c5cc" stroke-width=".4"/>
+  <path d="m47 123 18 1 17-26 30-17 36-4 31 14 17 24 1 22-12 19-17 6-16-8m-103 9 17 3 15 31 33 22 44 5 46-15 32-30 14-35-4-28" stroke="#eeeaf1" stroke-opacity=".54" stroke-width=".8"/>
+  <path d="m65 124 16 2m-15 40 13-10m2 41 13-11m20 33 12-15m32 20 1-17m45 2-11-14m43-16-19-5m33-30h-17m13-28-12 4M82 98l18 1m12-18 16 4m20-8 8 11m23 3 2 14m15 10-10 12m11 10-22 7m10 12-23-8" stroke="#d2cdd5" stroke-opacity=".48" stroke-width=".7"/>
+  <path d="m239 185-31 30-48 17-48-6" stroke="#ff6277" stroke-opacity=".78"/>
+  <circle cx="254" cy="226" r="3" fill="#ff4d65"/>
+</svg>
